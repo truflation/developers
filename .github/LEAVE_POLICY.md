@@ -1,5 +1,5 @@
 # Leave
-Holdex team's leave and days off policy
+Our team's leave and days off policy
 
 Every team member benefits from a standard PTO (paid time off) allowance outlined below.
 The policy comes into force after 6 months of collaboration.
