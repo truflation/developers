@@ -5,6 +5,22 @@ Accepted contributions will be reflected in our repositories and related website
 
 Please read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
+## Table of Contents
+
+- [Contributing Guidelines](#contributing-guidelines)
+    - [Table of Contents](#table-of-contents)
+    - [Getting started](#getting-started)
+        - [Goal](#goal)
+        - [Problem](#problem)
+        - [Solution](#solution)
+    - [PR Requirements](#pr-requirements)
+        - [Coding Style](#coding-style)
+        - [Scoping](#scoping)
+        - [Drafting](#drafting)
+        - [Design PRs](#design-prs)
+        - [Naming](#naming)
+        - [Requesting Review](#requesting-review)
+
 ## Getting started
 
 There are 3 core contribution pillars:
@@ -48,13 +64,27 @@ Whether it’s code, design, or marketing material, we expect a lean and clean s
 > [!NOTE]
 > Solution is presented in GitHub as [Pull Requests (PR)](https://docs.github.com/en/pull-requests) in compliance with [PR Requirements](#pr-requirements).
 
-# PR Requirements
+## PR Requirements
 All PRs, whether for source code, design or copy changes, must comply with our PR Requirements.
 
 > [!WARNING]
 > PRs that do not correspond to the following criteria are usually rejected.
 
-## Scoping
+### Coding Style
+
+Please ensure that your contributions adhere to the following coding guidelines for Go code:
+
+- Code should adhere to the official Go [formatting](https://go.dev/doc/effective_go#formatting) guidelines (i.e. use [`gofmt`](https://pkg.go.dev/cmd/gofmt)).
+- Code must be documented adhering to the Go commentary [guidelines](https://go.dev/doc/effective_go#commentary) and Go Doc [comments](https://go.dev/doc/comment).
+- Code should be tested as much as possible. Tests should be placed in the same package as the code they are testing, in a file named `*_test.go` (e.g. `foo.go` should have a corresponding `foo_test.go`).
+
+Please ensure that your contributions adhere to the following coding guidelines for other languages:
+
+- Code should adhere to the official language formatting guidelines.
+- Code must be documented adhering to the language commentary guidelines.
+- Code should be tested as much as possible.
+
+### Scoping
 
 > [!NOTE]
 > Here's a [good resource](https://youtu.be/bmSAYlu0NcY?si=2lLQeY1PGCY9tcvX) on software design philosophy.
@@ -64,7 +94,7 @@ If the solution requires more time, then decompose it into smaller independent P
 
 We usually reject and close PRs which do not have activity for the last 24 hours, unless there is a clear comment explaining the reason why that PR is stalled.
 
-## Drafting
+### Drafting
 When start working on a Problem, you must open a [draft PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests) right away. Do not mark PR as "ready to review" unless you are confident it is ready.
 
 When creating a PR, you must [link it](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) to the corresponding Problem (issue).
@@ -106,11 +136,11 @@ If there isn't an existing DESIGN.md file:
 1. Create a new file named DESIGN.md.
 1. Link it from README.md.
 
-## Naming
+### Naming
 When naming your PRs and commits follow [Conventional Commit](https://www.conventionalcommits.org) guidelines.  
 Keep it [clean and simple](https://pulsar.apache.org/contribute/develop-semantic-title/#how-to-write-good-pr-titles).
 
-## Requesting Review
+### Requesting Review
 Once your PR is ready, assign reviewers and mark it as "ready to review". But before that, make sure to report the time you have spent on the PR.
 
 > [!NOTE]
