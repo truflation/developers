@@ -3,7 +3,7 @@
 1. Make sure you are aligned with our Core Values.
 1. Assign yourself to a Goal and a Problem (GitHub issue) you are solving.
 1. Use Github and do not use messaging apps (i.e. Telegram) and DMs during a normal course of execution. Exception: use messaging apps only to "fight with a fire" (i.e.: server down, critical product bug) in real-time. In the exception case when you end up using messaging apps you must leave a complete log of important conversation details in the relevant Goal or Problem.
-1. Use `@mention` only when it is crucial for the person to be notified. Otherwise, use "reactions" (likes) instead.
+1. Use comments and `@mention` only when it is crucial for the person to be notified. Otherwise, use "reactions" (likes) to the comments instead.
 1. Ensure the quality of your work. It is a sign of poor ownership and lack of confidence when you expect someone to deal with your incomplete work.
 1. Leave updates a few times a day to keep things transparent and simple for others.
 
