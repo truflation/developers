@@ -66,7 +66,7 @@ We usually reject and close PRs which do not have activity for the last 24 hours
 
 ## Drafting
 When you start working on a Problem, you must:
-1. open a [draft PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests) right away. Do not mark PR as "ready to review" unless you are confident it is ready.
+1. open a [draft PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests) right away. Do not mark PR as "ready to review" if it is not ready.
 2. specify `main` branch as a target branch (we use [trunk-based merging strategy](https://trunkbaseddevelopment.com/))
 3. [link it](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) to the corresponding Problem (issue).
 
